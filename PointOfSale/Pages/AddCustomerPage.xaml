@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mct:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PointOfSale.Pages.AddCustomerPage"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
+             CanBeDismissedByTappingOutsideOfPopup="False">
+    <ScrollView>
+        <VerticalStackLayout Background="{StaticResource DarkBg2Brush}"
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Grid RowDefinitions="70,70" HorizontalOptions="Center" >
+                <Label Grid.Row="0" Text="Customer Information" />
+                <ContentView Grid.Row="1" WidthRequest="100" HeightRequest="100" Background="Gray" Margin="5">
+                    <Image Source="qr.png" Aspect="Fill" Margin="1"/>
+                </ContentView>
+
+            </Grid>
+            <Grid RowDefinitions="50,50,50,50"
+              ColumnDefinitions="200,200"
+              x:Name="PageGrid" HorizontalOptions="Center"  >
+                <Entry Placeholder="Give name" Grid.Column="0" />
+                <Entry Placeholder="Last name" Grid.Column="1" />
+                <Entry Placeholder="Contact" Grid.Column="0" Grid.Row="1" />
+                <Entry Placeholder="Email" Grid.Column="1" Grid.Row="1" />
+                <Entry Placeholder="Birth date" Grid.Column="0" Grid.Row="2"  />
+                <Entry Placeholder="Age" Grid.Column="1" Grid.Row="2"  />
+                <Entry Placeholder="Address" Grid.Column="0" Grid.Row="3" />
+            </Grid>
+
+            <Grid Grid.Row="4" HorizontalOptions="Center"
+                    RowDefinitions="50,50"
+                    ColumnDefinitions="*,*">
+                <Button Text="Save" Clicked="Button_Clicked" Grid.Column="0" />
+                <Button Text="Close" Clicked="Button_Clicked" Grid.Column="1" />
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</mct:Popup>

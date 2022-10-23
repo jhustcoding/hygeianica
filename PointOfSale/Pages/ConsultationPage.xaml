@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PointOfSale.Pages.ConsultationPage"
+             Title="Consultation">
+    <ScrollView>
+
+        <Grid RowDefinitions="70,*" 
+              ColumnDefinitions="275,*"
+              ColumnSpacing="24"
+              Padding="24"
+              x:Name="MainGrid">
+            <Label Text="History" Style="{StaticResource LargeTitle}"
+                   Grid.ColumnSpan="2"
+                   />
+            <Border Background="{StaticResource DarkBg2Brush}"
+                    Stroke="{StaticResource DarkBg2Brush}"
+                    StrokeThickness="1"
+                    Grid.Row="1"
+                    >
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="12"/>
+                </Border.StrokeShape>
+                <VerticalStackLayout Padding="0,12">
+
+                    <Grid ColumnDefinitions="Auto,Auto" ColumnSpacing="8"
+                          RowDefinitions="Auto, Auto" RowSpacing="4"
+                          Padding="26"
+                          >
+                        <Image Source="heart.png" />
+                        <Label Text="Appearance" Grid.Column="1" Style="{StaticResource Headline}" />
+                        <Label Text="Dark and Light mode, Font size" Grid.Column="1" Grid.Row="1" Style="{StaticResource Subhead}"/>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="20,Auto" ColumnSpacing="8"
+                          RowDefinitions="Auto, Auto" RowSpacing="4"
+                          Padding="26">
+                        <Image Source="store.png"/>
+                        <Label Text="Your Restaurant" Grid.Column="1" Style="{StaticResource Headline}" />
+                        <Label Text="Lorem ipsum dolor sit amet" Grid.Column="1" Grid.Row="1" Style="{StaticResource Subhead}"/>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="20,Auto" ColumnSpacing="8"
+                          RowDefinitions="Auto, Auto" RowSpacing="4"
+                          Padding="26"
+                          Background="{StaticResource TertiaryBrush}"
+                          >
+                        <Image Source="discount.png"/>
+                        <Label Text="Products Management" Grid.Column="1" Style="{StaticResource Headline}" TextColor="{StaticResource Primary}" />
+                        <Label Text="Manage your products, pricing..." Grid.Column="1" Grid.Row="1" Style="{StaticResource Subhead}"/>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="20,Auto" ColumnSpacing="8"
+                          RowDefinitions="Auto, Auto" RowSpacing="4"
+                          Padding="26">
+                        <Image Source="notification.png"/>
+                        <Label Text="Notifications" Grid.Column="1" Style="{StaticResource Headline}" />
+                        <Label Text="Customize your notifications" Grid.Column="1" Grid.Row="1" Style="{StaticResource Subhead}"/>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="20,Auto" ColumnSpacing="8"
+                          RowDefinitions="Auto, Auto" RowSpacing="4"
+                          Padding="26">
+                        <Image Source="unlock.png"/>
+                        <Label Text="Security" Grid.Column="1" Style="{StaticResource Headline}" />
+                        <Label Text="Configure password, PIN..." Grid.Column="1" Grid.Row="1" Style="{StaticResource Subhead}"/>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="20,Auto" ColumnSpacing="8"
+                          RowDefinitions="Auto, Auto" RowSpacing="4"
+                          Padding="26">
+                        <Image Source="info.png"/>
+                        <Label Text="About Us" Grid.Column="1" Style="{StaticResource Headline}" />
+                        <Label Text="Lorem ipsum dolor sit amet" Grid.Column="1" Grid.Row="1" Style="{StaticResource Subhead}"/>
+                    </Grid>
+                </VerticalStackLayout>
+            </Border>
+            <Border Grid.Column="1" Background="{StaticResource DarkBg2Brush}"
+                    Stroke="{StaticResource DarkBg2Brush}"
+                    StrokeThickness="1">
+
+                <VerticalStackLayout>
+                    <Grid RowDefinitions="*" ColumnDefinitions="500,*"  ColumnSpacing="100">
+                        <VerticalStackLayout>
+                            <Label Text="With prescription"></Label>
+                            <Grid RowDefinitions="50,50,50,50"
+                          ColumnDefinitions="250*,250*" RowSpacing="5"
+                          x:Name="PageGrid" HorizontalOptions="Start">
+                                <Grid RowDefinitions="*,*" RowSpacing="5">
+                                    <Label Text="Date of presciption"/>
+                                    <DatePicker Grid.Row="1" />
+                                </Grid>
+                                <Entry Placeholder="Physician's name" Grid.Row="1" WidthRequest="250"/>
+                                <Entry Placeholder="Physician's Contact" Grid.Column="1" Grid.Row="1" WidthRequest="250" />
+                                <Entry Placeholder="PRC license number"  Grid.Row="2" WidthRequest="250" />
+                                <Entry Placeholder="S2 license number" Grid.Column="1" Grid.Row="2" WidthRequest="250" />
+                            </Grid>
+                            <Label Text="Medicine prescribe section"></Label>
+                            <Grid RowDefinitions="50" ColumnDefinitions="250, 250" >
+                                <Entry Placeholder="Generic name" Grid.Column="0" WidthRequest="250" />
+                                <Entry Placeholder="Dosage strength" Grid.Column="1" WidthRequest="250" />
+                            </Grid>
+                            <Grid RowDefinitions="100,100,100,100,50,50" ColumnDefinitions="500">
+                                <Editor Placeholder="Description" />
+                                <Editor Grid.Row="1" Placeholder="Pharmacy's Instruction"/>
+                                <Editor Grid.Row="2" Placeholder="Remarks" />
+                                <Editor Grid.Row="3" Placeholder="Amount Prescribed"/>
+                                <Entry  Grid.Row="4" Placeholder="Issued by:" HorizontalOptions="Start" WidthRequest="250"/>
+                                <Button Grid.Row="5" Text="Upload prescription" />
+                            </Grid>
+                        </VerticalStackLayout>
+                        <VerticalStackLayout Grid.Column="1">
+                            <Label Text="Without prescription section"></Label>
+                            <Grid RowDefinitions="100,100,50" ColumnDefinitions="500">
+                                <Editor Placeholder="Symptoms" Grid.Column="0" />
+                                <Editor Grid.Row="1" Placeholder="Pharmacist recommendation" Grid.Column="1" />
+                                <Entry  Grid.Row="4" Placeholder="Issued by:" HorizontalOptions="Start" WidthRequest="250"/>
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Grid>
+                </VerticalStackLayout>
+            </Border>
+        </Grid>
+    </ScrollView>
+</ContentPage>
