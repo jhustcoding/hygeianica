@@ -19,11 +19,13 @@ public partial class ConsultationPage : Popup
     private void SaveCustomer_Button_Clicked(object sender, EventArgs e)
     {
         CreateDocument();
+        Result.Text = "Successfully saved";
     }
     private void SaveCustomer_Button_Clicked1(object sender, EventArgs e)
     {
         CreateDocument1();
         this.dataGrid.SelectionChanged += DataGrid_SelectionChanged;
+        Result.Text = "Successfully saved";
     }
 
     public async Task CreateDocument()
@@ -67,7 +69,7 @@ public partial class ConsultationPage : Popup
     }
     private void Button_Clicked(object sender, EventArgs e)
     {
-        //Close();
+        Close();
     }
     private void DataGrid_SelectionChanged(object sender, Syncfusion.Maui.DataGrid.DataGridSelectionChangedEventArgs e)
     {

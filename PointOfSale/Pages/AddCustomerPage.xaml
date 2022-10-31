@@ -38,8 +38,9 @@
                     ColumnDefinitions="*,*">
                 <Button Text="Save" Clicked="SaveCustomer_Button_Clicked" Grid.Column="0" />
                 <Button Text="Close" Clicked="Button_Clicked" Grid.Column="1" />
+                
             </Grid>
-    
+            <Label x:Name="Result" HorizontalOptions="Center"/>
         </VerticalStackLayout>
         </Border>
 

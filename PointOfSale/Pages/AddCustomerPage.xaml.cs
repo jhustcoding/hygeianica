@@ -16,10 +16,19 @@ public partial class AddCustomerPage : Popup
         Close();
     }
 
-    private void SaveCustomer_Button_Clicked(object sender, EventArgs e)
+    private async void SaveCustomer_Button_Clicked(object sender, EventArgs e)
     {
         CreateDocument();
-       // this.ShowPopup(new NewPage1());
+        Result.Text = "Successfully saved";
+        GivenName.Text = "";
+        Address.Text = "";
+        Age.Text = "";
+        BirthDate.Text = "";
+        Contact.Text = "";
+        Email.Text = "";
+        LastName.Text = "";
+        Gender.Text = "";
+        Discount.Text = "";
     }
 
     public async Task CreateDocument()
