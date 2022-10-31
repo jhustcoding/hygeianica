@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gagg4LAbonlHAOv8lWciNf0F7i4rG/NSWy3VGpjhkOEFAfGF5ILqusOW4dJDoycY2yaO10Pz+xlruMKhBX8Rbg==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\srccode\\hygeianica\\Structures\\Structures.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jhust\\.nuget\\packages\\mongodb.bson\\2.18.0\\mongodb.bson.2.18.0.nupkg.sha512",
+    "C:\\Users\\Jhust\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\dev\srccode\hygeianica\Backend.Server\bin\Debug\net6.0\Backend.Server.deps.json
+C:\dev\srccode\hygeianica\Backend.Server\bin\Debug\net6.0\Backend.Server.dll
+C:\dev\srccode\hygeianica\Backend.Server\bin\Debug\net6.0\Backend.Server.pdb
+C:\dev\srccode\hygeianica\Backend.Server\obj\Debug\net6.0\Backend.Server.csproj.AssemblyReference.cache
+C:\dev\srccode\hygeianica\Backend.Server\obj\Debug\net6.0\Backend.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\srccode\hygeianica\Backend.Server\obj\Debug\net6.0\Backend.Server.AssemblyInfoInputs.cache
+C:\dev\srccode\hygeianica\Backend.Server\obj\Debug\net6.0\Backend.Server.AssemblyInfo.cs
+C:\dev\srccode\hygeianica\Backend.Server\obj\Debug\net6.0\Backend.Server.csproj.CoreCompileInputs.cache
+C:\dev\srccode\hygeianica\Backend.Server\obj\Debug\net6.0\Backend.Server.dll
+C:\dev\srccode\hygeianica\Backend.Server\obj\Debug\net6.0\refint\Backend.Server.dll
+C:\dev\srccode\hygeianica\Backend.Server\obj\Debug\net6.0\Backend.Server.pdb
+C:\dev\srccode\hygeianica\Backend.Server\obj\Debug\net6.0\ref\Backend.Server.dll

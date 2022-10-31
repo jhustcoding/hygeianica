@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PointOfSale.Pages.AddSupplierPage"
+             Title="Add Supplier">
+    <ScrollView>
+        <Border Background="{StaticResource DarkBg2Brush}"
+                    Stroke="{StaticResource DarkBg2Brush}"
+                    StrokeThickness="1">
+            <VerticalStackLayout>
+                <Grid RowDefinitions="450,*" ColumnDefinitions="*,*"  ColumnSpacing="100" Margin="100,100,100,100" >
+                    <Border>
+                        <VerticalStackLayout>
+                            <Grid RowDefinitions="45,45,45,45,45,45,45,45,45,45,45,45,45,45,45"
+                              ColumnDefinitions="150,*" RowSpacing="10" ColumnSpacing="10"
+                              x:Name="PageGrid" HorizontalOptions="Start">
+                                <Label Text="Supplier Name:" Grid.Column="0" Style="{StaticResource Headline}" VerticalOptions="Center" />
+                                <Entry x:Name="SupplierName" Placeholder="Supplier Name"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Phone:" Grid.Row="1" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="Phone" Placeholder="Phone" Grid.Row="1"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Office Address:" Grid.Row="2" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="OfficeAddress" Placeholder="Office Address" Grid.Row="2"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="City:" Grid.Row="3" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="City" Placeholder="City" Grid.Row="3"  Grid.Column="1" WidthRequest="400" />
+                                <Label Text="Postal code:" Grid.Row="4" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="PostalCode" Placeholder="Postal code" Grid.Row="4"  Grid.Column="1" WidthRequest="400" />
+                                <Label Text="Country:" Grid.Row="5" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="Country" Placeholder="Country" Grid.Row="5"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Mobile number:" Grid.Row="6" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="MobileNumber" Placeholder="Mobile number" Grid.Row="6"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Agent name:" Grid.Row="7" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="AgentName" Placeholder="Agent name" Grid.Row="7"  Grid.Column="1" WidthRequest="400"/>
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Border>
+        <Border Grid.Column="1">
+            <VerticalStackLayout>
+                <Grid RowDefinitions="45,45,45,45,45,45,45,45,45,45" ColumnDefinitions="*,*" ColumnSpacing="10" RowSpacing="10" HorizontalOptions="Start">
+                    <Label Text="LTO registration number:" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                    <Entry x:Name="LTORegsNumber" Placeholder="LTO registration number" Grid.Column="1" WidthRequest="400"/>
+                    <Label Text="LTO expiration:" Grid.Row="1" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                    <Entry x:Name="LTOExpi" Placeholder="LTO expiration" Grid.Row="1"  Grid.Column="1" WidthRequest="400"/>
+                    <Label Text="Type:" Grid.Row="2" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                    <Entry x:Name="Type" Placeholder="Type" Grid.Row="2"  Grid.Column="1" WidthRequest="400"/>
+                    <Label Text="Previous balance:" Grid.Row="3" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                    <Entry x:Name="PreviousBalance" Placeholder="Previous balance" Grid.Row="3"  Grid.Column="1" WidthRequest="400"/>
+                    <Label Text="LTO imgae upload:" Grid.Row="4" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                    <Entry Placeholder="Chooose file" Grid.Row="4"  Grid.Column="1" WidthRequest="400"/>
+                    <Label Text="Preview:" Grid.Row="5" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                    <ContentView Grid.Column="1" Grid.Row="6" HeightRequest="120" WidthRequest="120"  Background="Gray" HorizontalOptions="Start">
+                        <Image Source="qr.png" Aspect="Fill"/>
+                    </ContentView>
+                </Grid>
+            </VerticalStackLayout>
+        </Border>
+                    
+        <Border Grid.Row="1">
+
+            <HorizontalStackLayout >
+                <Grid ColumnDefinitions="*,*,*" ColumnSpacing="5" Margin="5">
+                    <Button Text="Save" VerticalOptions="Center"
+                                Clicked="SaveCustomer_Button_Clicked"/>
+                    <Button Grid.Column="1" Text="Clear" VerticalOptions="Center"
+                               />
+                </Grid>
+            </HorizontalStackLayout>
+        </Border>
+        </Grid>
+                <ScrollView Grid.Row="1">
+                    <syncfusion:SfDataGrid x:Name="dataGrid1"
+                                AutoGenerateColumnsMode="None" DefaultColumnWidth="200" CellTapped="dataGrid_CellTapped1"
+                                ItemsSource="{Binding NonePrescribeConsultationInfoCollection}">
+                        <syncfusion:SfDataGrid.Columns  >
+                            <syncfusion:DataGridTextColumn HeaderText="Date None Prescription"
+                                   MappingName="Date" />
+                        </syncfusion:SfDataGrid.Columns>
+                    </syncfusion:SfDataGrid>
+                </ScrollView>
+
+            </VerticalStackLayout>
+        </Border>
+    </ScrollView>
+</ContentPage>

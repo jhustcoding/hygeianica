@@ -1,0 +1,12 @@
+C:\dev\srccode\hygeianica\Backend.Operations\bin\Debug\net6.0\Backend.Operations.deps.json
+C:\dev\srccode\hygeianica\Backend.Operations\bin\Debug\net6.0\Backend.Operations.dll
+C:\dev\srccode\hygeianica\Backend.Operations\bin\Debug\net6.0\Backend.Operations.pdb
+C:\dev\srccode\hygeianica\Backend.Operations\obj\Debug\net6.0\Backend.Operations.csproj.AssemblyReference.cache
+C:\dev\srccode\hygeianica\Backend.Operations\obj\Debug\net6.0\Backend.Operations.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\srccode\hygeianica\Backend.Operations\obj\Debug\net6.0\Backend.Operations.AssemblyInfoInputs.cache
+C:\dev\srccode\hygeianica\Backend.Operations\obj\Debug\net6.0\Backend.Operations.AssemblyInfo.cs
+C:\dev\srccode\hygeianica\Backend.Operations\obj\Debug\net6.0\Backend.Operations.csproj.CoreCompileInputs.cache
+C:\dev\srccode\hygeianica\Backend.Operations\obj\Debug\net6.0\Backend.Operations.dll
+C:\dev\srccode\hygeianica\Backend.Operations\obj\Debug\net6.0\refint\Backend.Operations.dll
+C:\dev\srccode\hygeianica\Backend.Operations\obj\Debug\net6.0\Backend.Operations.pdb
+C:\dev\srccode\hygeianica\Backend.Operations\obj\Debug\net6.0\ref\Backend.Operations.dll

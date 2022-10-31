@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PointOfSale.Pages.AddManufacturerPage"
+             Title="Add Manufacturer">
+    <ScrollView>
+        <Border Background="{StaticResource DarkBg2Brush}"
+                    Stroke="{StaticResource DarkBg2Brush}"
+                    StrokeThickness="1">
+            <VerticalStackLayout>
+                <Border HorizontalOptions="Center" Margin="50,50,50,50">
+                        <VerticalStackLayout>
+                            <Grid RowDefinitions="45,45,45,45,45,45,45,45,45,45,45,45,45,45,45"
+                              ColumnDefinitions="160,*" RowSpacing="10" ColumnSpacing="10"
+                              x:Name="PageGrid" HorizontalOptions="Start">
+                                <Label Text="Supplier Name:" Grid.Column="0" Style="{StaticResource Headline}" VerticalOptions="Center" />
+                                <Entry Placeholder="Supplier Name"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Phone:" Grid.Row="1" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry Placeholder="Phone" Grid.Row="1"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Office Address:" Grid.Row="2" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry Placeholder="Office Address" Grid.Row="2"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="City:" Grid.Row="3" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry Placeholder="City" Grid.Row="3"  Grid.Column="1" WidthRequest="400" />
+                                <Label Text="Postal code:" Grid.Row="4" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry Placeholder="Postal code" Grid.Row="4"  Grid.Column="1" WidthRequest="400" />
+                                <Label Text="Country:" Grid.Row="5" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry Placeholder="Country" Grid.Row="5"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Mobile number:" Grid.Row="6" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry Placeholder="Mobile number" Grid.Row="6"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Product validity email:" Grid.Row="7" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry Placeholder="Product validity email" Grid.Row="7"  Grid.Column="1" WidthRequest="400"/>
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Border>
+            </VerticalStackLayout>
+        </Border>
+    </ScrollView>
+</ContentPage>
