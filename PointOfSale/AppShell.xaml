@@ -194,7 +194,7 @@
         <ShellContent ContentTemplate="{DataTemplate pages:AddSupplierPage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Medicine" Route="medicine">
-        <ShellContent ContentTemplate="{DataTemplate pages:ConsultationPage}"/>
+        <ShellContent ContentTemplate="{DataTemplate pages:AddProductPage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Messages" Route="message">
         <ShellContent ContentTemplate="{DataTemplate pages:EmptyPage}"/>

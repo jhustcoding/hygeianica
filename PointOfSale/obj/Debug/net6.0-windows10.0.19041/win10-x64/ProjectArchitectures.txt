@@ -1,1 +1,0 @@
-C:\dev\srccode\hygeianica\PointOfSale\PointOfSale.csproj;x64

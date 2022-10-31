@@ -122,6 +122,9 @@
 	  <MauiXaml Update="Pages\AddProductPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\NewPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Views\ConsultationPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

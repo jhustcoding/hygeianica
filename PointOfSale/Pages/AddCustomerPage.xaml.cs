@@ -19,6 +19,7 @@ public partial class AddCustomerPage : Popup
     private void SaveCustomer_Button_Clicked(object sender, EventArgs e)
     {
         CreateDocument();
+       // this.ShowPopup(new NewPage1());
     }
 
     public async Task CreateDocument()

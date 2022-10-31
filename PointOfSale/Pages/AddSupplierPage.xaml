@@ -2,8 +2,14 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PointOfSale.Pages.AddSupplierPage"
-             Title="Add Supplier">
-    <ScrollView>
+             Title="Add Supplier"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.DataGrid;assembly=Syncfusion.Maui.DataGrid"
+                          xmlns:m="clr-namespace:PointOfSale.Models">
+    <ContentPage.BindingContext>
+        <m:SupplierViewModel/>
+
+        </ContentPage.BindingContext>
+            <ScrollView>
         <Border Background="{StaticResource DarkBg2Brush}"
                     Stroke="{StaticResource DarkBg2Brush}"
                     StrokeThickness="1">
@@ -66,16 +72,30 @@
             </HorizontalStackLayout>
         </Border>
         </Grid>
-                <!--<ScrollView Grid.Row="1">
-                    <syncfusion:SfDataGrid x:Name="dataGrid1"
-                                AutoGenerateColumnsMode="None" DefaultColumnWidth="200" CellTapped="dataGrid_CellTapped1"
-                                ItemsSource="{Binding NonePrescribeConsultationInfoCollection}">
+                <VerticalStackLayout>
+                    <syncfusion:SfDataGrid x:Name="dataGrid" AutoGenerateColumnsMode="None"
+                                 DefaultColumnWidth="200" CellTapped="dataGrid_CellTapped"
+                                ItemsSource="{Binding SuppliersInfoCollection}">
                         <syncfusion:SfDataGrid.Columns  >
-                            <syncfusion:DataGridTextColumn HeaderText="Date None Prescription"
-                                   MappingName="Date" />
+                            <syncfusion:DataGridTextColumn HeaderText="Supplier name"
+                                   MappingName="SupplierName" />
+                            <syncfusion:DataGridTextColumn HeaderText="Phone"
+                                   MappingName="Phone"/>
+                            <syncfusion:DataGridTextColumn HeaderText="Contact" MappingName="Office Address"/>
+                            <syncfusion:DataGridTextColumn HeaderText="City"
+                                   MappingName="City"/>
+                            <syncfusion:DataGridTextColumn HeaderText="Postal Code"
+                                   MappingName="PostalCode"/>
+                            <syncfusion:DataGridTextColumn HeaderText="Mobile Number"
+                                   MappingName="MobileNumber"/>
+                            <syncfusion:DataGridTextColumn HeaderText="Agent name"
+                                   MappingName="Agent Name"/>
+                            <syncfusion:DataGridTextColumn HeaderText="LTO Registration"
+                                   MappingName="LTORegistration"/>
                         </syncfusion:SfDataGrid.Columns>
+
                     </syncfusion:SfDataGrid>
-                </ScrollView>-->
+                </VerticalStackLayout>
 
             </VerticalStackLayout>
         </Border>
