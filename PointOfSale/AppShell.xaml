@@ -183,15 +183,13 @@
         </DataTemplate>
     </Shell.FlyoutContentTemplate>
 
-    <FlyoutItem Title="Home" Route="home">
-        <ShellContent ContentTemplate="{DataTemplate pages:HomePage}"/>
+    <FlyoutItem Title="Dashboard" Route="dashboard">
+        <ShellContent ContentTemplate="{DataTemplate pages:DashboardPage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Customer" Route="customer">
         <ShellContent ContentTemplate="{DataTemplate pages:CustomerPage}"/>
     </FlyoutItem>
-    <FlyoutItem Title="Dashboard" Route="dashboard">
-        <ShellContent ContentTemplate="{DataTemplate pages:DashboardPage}"/>
-    </FlyoutItem>
+
     <FlyoutItem Title="Supplier" Route="supplier">
         <ShellContent ContentTemplate="{DataTemplate pages:AddSupplierPage}"/>
     </FlyoutItem>
