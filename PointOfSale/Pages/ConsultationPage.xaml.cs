@@ -9,7 +9,7 @@ using System.Diagnostics.Metrics;
 
 namespace PointOfSale.Pages;
 
-public partial class ConsultationPage : ContentPage
+public partial class ConsultationPage : Popup
 {
 	public ConsultationPage()
 	{

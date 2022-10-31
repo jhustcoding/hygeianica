@@ -28,6 +28,6 @@ public partial class CustomerPage : ContentPage
         //var columnIndex = e.RowColumnIndex.ColumnIndex;
         //var column = e.Column;
 
-        //this.ShowPopup(new ConsultationPage());
+        this.ShowPopup(new ConsultationPage());
     }
 }

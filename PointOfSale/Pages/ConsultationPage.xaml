@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<mct:Popup  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PointOfSale.Pages.ConsultationPage"
               xmlns:m="clr-namespace:PointOfSale.Models"
               xmlns:syncfusion="clr-namespace:Syncfusion.Maui.DataGrid;assembly=Syncfusion.Maui.DataGrid"
-             Title="Consultation">
-    <ContentPage.Resources>
-        <Style TargetType="syncfusion:DataGridCell">
-            <Setter Property="TextColor" Value="#fff"/>
-            <Setter Property="FontSize" Value="18"/>
-            <Setter Property="FontFamily" Value="OpenSansRegular"/>
-        </Style>
-        <Style TargetType="syncfusion:DataGridHeaderCell">
-            <Setter Property="TextColor" Value="#fff"/>
-            <Setter Property="FontSize" Value="18"/>
-            <Setter Property="FontFamily" Value="OpenSansRegular"/>
-        </Style>
-    </ContentPage.Resources>
-    <ContentPage.BindingContext>
-        <m:ConsultationViewModel/>
-    </ContentPage.BindingContext>
+               xmlns:mct="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
+>
 
-    <ScrollView>
+
+
+    <mct:Popup.BindingContext>
+        <m:ConsultationViewModel/>
+    </mct:Popup.BindingContext>
+
         <StackLayout WidthRequest="2000" HeightRequest="1000" Background="{StaticResource DarkBg2Brush}" >
             <Grid RowDefinitions="70,*" 
               ColumnDefinitions="275,*"
@@ -184,6 +175,6 @@
             </Border>
         </Grid>
         </StackLayout>
-    </ScrollView>
 
-</ContentPage>
+
+</mct:Popup>
