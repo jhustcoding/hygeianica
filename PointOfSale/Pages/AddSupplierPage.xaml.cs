@@ -30,7 +30,7 @@ public partial class AddSupplierPage : ContentPage
             Phone = Phone.Text,
             PostalCode = PostalCode.Text,
             PreviousBalance = PreviousBalance.Text,
-            Type = Type.Text
+            Type = Type1.Text
         };
 
         await dbHelper.CreateDocument<Supplier>("hygeneiaca", "suppliers", supplier);

@@ -41,7 +41,7 @@
                     <Label Text="LTO expiration:" Grid.Row="1" Style="{StaticResource Headline}" VerticalOptions="Center"  />
                     <Entry x:Name="LTOExpi" Placeholder="LTO expiration" Grid.Row="1"  Grid.Column="1" WidthRequest="400"/>
                     <Label Text="Type:" Grid.Row="2" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                    <Entry x:Name="Type" Placeholder="Type" Grid.Row="2"  Grid.Column="1" WidthRequest="400"/>
+                    <Entry x:Name="Type1" Placeholder="Type" Grid.Row="2"  Grid.Column="1" WidthRequest="400"/>
                     <Label Text="Previous balance:" Grid.Row="3" Style="{StaticResource Headline}" VerticalOptions="Center"  />
                     <Entry x:Name="PreviousBalance" Placeholder="Previous balance" Grid.Row="3"  Grid.Column="1" WidthRequest="400"/>
                     <Label Text="LTO imgae upload:" Grid.Row="4" Style="{StaticResource Headline}" VerticalOptions="Center"  />
@@ -66,7 +66,7 @@
             </HorizontalStackLayout>
         </Border>
         </Grid>
-                <ScrollView Grid.Row="1">
+                <!--<ScrollView Grid.Row="1">
                     <syncfusion:SfDataGrid x:Name="dataGrid1"
                                 AutoGenerateColumnsMode="None" DefaultColumnWidth="200" CellTapped="dataGrid_CellTapped1"
                                 ItemsSource="{Binding NonePrescribeConsultationInfoCollection}">
@@ -75,7 +75,7 @@
                                    MappingName="Date" />
                         </syncfusion:SfDataGrid.Columns>
                     </syncfusion:SfDataGrid>
-                </ScrollView>
+                </ScrollView>-->
 
             </VerticalStackLayout>
         </Border>
