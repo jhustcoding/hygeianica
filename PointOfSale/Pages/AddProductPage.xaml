@@ -7,51 +7,54 @@
         <Border Background="{StaticResource DarkBg2Brush}"
                     Stroke="{StaticResource DarkBg2Brush}"
                     StrokeThickness="1">
-
             <VerticalStackLayout>
                 <Grid RowDefinitions="*" ColumnDefinitions="*,*"  ColumnSpacing="100" Margin="100,100,100,100">
-                    <VerticalStackLayout>
-                        <Grid RowDefinitions="45,45,45,45,45,45,45,45,45,45,45,45,45,45,45"
-                          ColumnDefinitions="150,*" RowSpacing="10" ColumnSpacing="10"
-                          x:Name="PageGrid" HorizontalOptions="Start">
-                            <Label Text="Bar Code or QR Code:" Grid.Column="0" Style="{StaticResource Headline}" VerticalOptions="Center" />
-                            <Entry Placeholder="Bar code or QR code"  Grid.Column="1" WidthRequest="400"/>
-                            <Label Text="Dosage strength:" Grid.Row="1" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Dosage strength" Grid.Row="1"  Grid.Column="1" WidthRequest="400"/>
-                            <Label Text="Dosage form:" Grid.Row="2" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Dosage form" Grid.Row="2"  Grid.Column="1" WidthRequest="400"/>
-                            <Label Text="Product description:" Grid.Row="3" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Product description" Grid.Row="3"  Grid.Column="1" WidthRequest="400" />
-                            <Label Text="Therapeutic category:" Grid.Row="4" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Therapeutic category" Grid.Row="4"  Grid.Column="1" WidthRequest="400" />
-                            <Label Text="Medication type:" Grid.Row="5" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Medication type" Grid.Row="5"  Grid.Column="1" WidthRequest="400"/>
-                            <Label Text="Supplier:" Grid.Row="6" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Supplier" Grid.Row="6"  Grid.Column="1" WidthRequest="400"/>
-                            <Label Text="Supplier price:" Grid.Row="7" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Supplier price" Grid.Row="7"  Grid.Column="1" WidthRequest="400"/>
-                        </Grid>
-                    </VerticalStackLayout>
-                    <VerticalStackLayout Grid.Column="1">
-                        <Grid RowDefinitions="45,45,45,45,45,45,45,45,45,45" ColumnDefinitions="*,*" ColumnSpacing="10" RowSpacing="10" HorizontalOptions="Start">
-                            <Label Text="Generic name:" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Generic name" Grid.Column="1" WidthRequest="400"/>
-                            <Label Text="Brand name:" Grid.Row="1" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Brand name" Grid.Row="1"  Grid.Column="1" WidthRequest="400"/>
-                            <Label Text="Unit:" Grid.Row="2" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Unit" Grid.Row="2"  Grid.Column="1" WidthRequest="400"/>
-                            <Label Text="Medicine:" Grid.Row="3" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Medicine" Grid.Row="3"  Grid.Column="1" WidthRequest="400"/>
-                            <Label Text="Price:" Grid.Row="4" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Price" Grid.Row="4"  Grid.Column="1" WidthRequest="400"/>
-                            <Label Text="Image upload:" Grid.Row="5" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <Entry Placeholder="Chooose file" Grid.Row="5"  Grid.Column="1" WidthRequest="400"/>
-                            <Label Text="Preview:" Grid.Row="6" Style="{StaticResource Headline}" VerticalOptions="Center"  />
-                            <ContentView Grid.Column="1" Grid.Row="7" HeightRequest="120" WidthRequest="120"  Background="Gray" HorizontalOptions="Start">
-                                <Image Source="qr.png" Aspect="Fill"/>
-                            </ContentView>
-                        </Grid>
-                    </VerticalStackLayout>
+                    <Border>
+                        <VerticalStackLayout>
+                            <Grid RowDefinitions="45,45,45,45,45,45,45,45,45,45,45,45,45,45,45"
+                              ColumnDefinitions="150,*" RowSpacing="10" ColumnSpacing="10"
+                              x:Name="PageGrid" HorizontalOptions="Start">
+                                <Label Text="Bar Code or QR Code:" Grid.Column="0" Style="{StaticResource Headline}" VerticalOptions="Center" />
+                                <Entry x:Name="QR" Placeholder="Bar code or QR code"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Dosage strength:" Grid.Row="1" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="DosageStrength" Placeholder="Dosage strength" Grid.Row="1"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Dosage form:" Grid.Row="2" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="DosageForm" Placeholder="Dosage form" Grid.Row="2"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Product description:" Grid.Row="3" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="ProductDescription" Placeholder="Product description" Grid.Row="3"  Grid.Column="1" WidthRequest="400" />
+                                <Label Text="Therapeutic category:" Grid.Row="4" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="TherapeuticCategory" Placeholder="Therapeutic category" Grid.Row="4"  Grid.Column="1" WidthRequest="400" />
+                                <Label Text="Medication type:" Grid.Row="5" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="MedicationType" Placeholder="Medication type" Grid.Row="5"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Supplier:" Grid.Row="6" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="SupplierName" Placeholder="Supplier" Grid.Row="6"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Supplier price:" Grid.Row="7" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="SupplierPrice" Placeholder="Supplier price" Grid.Row="7"  Grid.Column="1" WidthRequest="400"/>
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Grid.Column="1">
+                        <VerticalStackLayout>
+                            <Grid RowDefinitions="45,45,45,45,45,45,45,45,45,45" ColumnDefinitions="*,*" ColumnSpacing="10" RowSpacing="10" HorizontalOptions="Start">
+                                <Label Text="Generic name:" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="GenericName" Placeholder="Generic name" Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Brand name:" Grid.Row="1" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="BrandName" Placeholder="Brand name" Grid.Row="1"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Unit:" Grid.Row="2" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="Unit" Placeholder="Unit" Grid.Row="2"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Medicine:" Grid.Row="3" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="Medicine" Placeholder="Medicine" Grid.Row="3"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Price:" Grid.Row="4" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry x:Name="Price" Placeholder="Price" Grid.Row="4"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Image upload:" Grid.Row="5" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Entry Placeholder="Chooose file" Grid.Row="5"  Grid.Column="1" WidthRequest="400"/>
+                                <Label Text="Preview:" Grid.Row="6" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <ContentView Grid.Column="1" Grid.Row="7" HeightRequest="120" WidthRequest="120"  Background="Gray" HorizontalOptions="Start">
+                                    <Image Source="qr.png" Aspect="Fill"/>
+                                </ContentView>
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Border>
                 </Grid>
             </VerticalStackLayout>
         </Border>

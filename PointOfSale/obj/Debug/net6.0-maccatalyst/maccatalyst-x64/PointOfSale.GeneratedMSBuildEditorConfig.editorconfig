@@ -43,11 +43,25 @@ build_metadata.AdditionalFiles.TargetPath = Pages\AddCustomerPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\AddCustomerPage.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/dev/srccode/hygeianica/PointOfSale/Pages/AddManufacturerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.AddManufacturerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddManufacturerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddManufacturerPage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/dev/srccode/hygeianica/PointOfSale/Pages/AddProductPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.AddProductPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\AddProductPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\AddProductPage.xaml
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/srccode/hygeianica/PointOfSale/Pages/AddSupplierPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PointOfSale.Pages.AddSupplierPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddSupplierPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddSupplierPage.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/dev/srccode/hygeianica/PointOfSale/Pages/ConsultationPage.xaml]

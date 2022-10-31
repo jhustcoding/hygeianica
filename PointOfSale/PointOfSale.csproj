@@ -9,6 +9,7 @@
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<EnablePreviewMsixTooling>true</EnablePreviewMsixTooling>
+	
 
 		<!-- Display name -->
 		<ApplicationTitle>Food</ApplicationTitle>
@@ -69,16 +70,28 @@
 	  <None Remove="Resources\Images\add_customer.svg" />
 	  <None Remove="Resources\Images\consultation.svg" />
 	  <None Remove="Resources\Images\edit.svg" />
+	  <None Remove="Resources\Images\human_resource.svg" />
+	  <None Remove="Resources\Images\medicine.svg" />
 	  <None Remove="Resources\Images\qr.svg" />
+	  <None Remove="Resources\Images\supplier.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Maui" Version="1.2.0" />
 	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
 	  <PackageReference Include="Microcharts" Version="0.9.5.9" />
+	  <PackageReference Include="MongoDB.Driver" Version="2.18.0" />
 	  <PackageReference Include="Redth.ZXing.Net.Maui" Version="0.1.0-preview.4" />
 	  <PackageReference Include="SkiaSharp.Extended.UI.Maui" Version="2.0.0-preview.59" />
 	  <PackageReference Include="Ril.BlazorSignatureCanvas" Version="0.1.0-alpha" />
+	  <PackageReference Include="Syncfusion.Maui.DataGrid" Version="20.3.52" />
+	  <PackageReference Include="Syncfusion.Xamarin.DataSource" Version="20.3.0.52" />
+	  <PackageReference Include="Syncfusion.Xamarin.GridCommon" Version="20.3.0.52" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Backend.Server\Backend.Server.csproj" />
+	  <ProjectReference Include="..\Structures\Structures.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -92,6 +105,12 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="Pages\AddCustomerPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\AddManufacturerPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\AddSupplierPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\ConsultationPage.xaml">

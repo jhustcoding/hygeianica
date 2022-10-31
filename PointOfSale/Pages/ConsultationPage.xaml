@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentPage  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PointOfSale.Pages.ConsultationPage"
+              xmlns:m="clr-namespace:PointOfSale.Models"
+              xmlns:syncfusion="clr-namespace:Syncfusion.Maui.DataGrid;assembly=Syncfusion.Maui.DataGrid"
              Title="Consultation">
-    <ScrollView>
+    <ContentPage.Resources>
+        <Style TargetType="syncfusion:DataGridCell">
+            <Setter Property="TextColor" Value="#fff"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontFamily" Value="OpenSansRegular"/>
+        </Style>
+        <Style TargetType="syncfusion:DataGridHeaderCell">
+            <Setter Property="TextColor" Value="#fff"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontFamily" Value="OpenSansRegular"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <m:ConsultationViewModel/>
+    </ContentPage.BindingContext>
 
-        <Grid RowDefinitions="70,*" 
+    <ScrollView>
+        <StackLayout WidthRequest="2000" HeightRequest="1000" Background="{StaticResource DarkBg2Brush}" >
+            <Grid RowDefinitions="70,*" 
               ColumnDefinitions="275,*"
               ColumnSpacing="24"
               Padding="24"
@@ -23,7 +41,7 @@
                 </Border.StrokeShape>
                 <VerticalStackLayout Padding="0,12">
 
-                    <Grid ColumnDefinitions="Auto,Auto" ColumnSpacing="8"
+                    <!--<Grid ColumnDefinitions="Auto,Auto" ColumnSpacing="8"
                           RowDefinitions="Auto, Auto" RowSpacing="4"
                           Padding="26"
                           >
@@ -72,54 +90,100 @@
                         <Image Source="info.png"/>
                         <Label Text="About Us" Grid.Column="1" Style="{StaticResource Headline}" />
                         <Label Text="Lorem ipsum dolor sit amet" Grid.Column="1" Grid.Row="1" Style="{StaticResource Subhead}"/>
-                    </Grid>
-                </VerticalStackLayout>
+                    </Grid>-->
+                        <Grid RowDefinitions="*,*">
+                            <ScrollView>
+                            <syncfusion:SfDataGrid x:Name="dataGrid"
+                                AutoGenerateColumnsMode="None" DefaultColumnWidth="200" CellTapped="dataGrid_CellTapped"
+                                ItemsSource="{Binding PrescribeConsultationInfoCollection}">
+                                <syncfusion:SfDataGrid.Columns  >
+                                        <syncfusion:DataGridTextColumn HeaderText="Date Prescription"
+                                   MappingName="Date" />
+                                </syncfusion:SfDataGrid.Columns>
+                            </syncfusion:SfDataGrid>
+                            </ScrollView>
+                            <ScrollView Grid.Row="1">
+                            <syncfusion:SfDataGrid x:Name="dataGrid1"
+                                AutoGenerateColumnsMode="None" DefaultColumnWidth="200" CellTapped="dataGrid_CellTapped1"
+                                ItemsSource="{Binding NonePrescribeConsultationInfoCollection}">
+                                <syncfusion:SfDataGrid.Columns  >
+                                    <syncfusion:DataGridTextColumn HeaderText="Date None Prescription"
+                                   MappingName="Date" />
+                                </syncfusion:SfDataGrid.Columns>
+                            </syncfusion:SfDataGrid>
+                            </ScrollView>
+
+                        </Grid>
+
+
+                    </VerticalStackLayout>
             </Border>
             <Border Grid.Column="1" Background="{StaticResource DarkBg2Brush}"
                     Stroke="{StaticResource DarkBg2Brush}"
                     StrokeThickness="1">
 
                 <VerticalStackLayout>
-                    <Grid RowDefinitions="*" ColumnDefinitions="500,*"  ColumnSpacing="100">
-                        <VerticalStackLayout>
-                            <Label Text="With prescription"></Label>
-                            <Grid RowDefinitions="50,50,50,50"
+                        <Grid RowDefinitions="*,*" ColumnDefinitions="500,*"  ColumnSpacing="100">
+                            <VerticalStackLayout>
+                                <Label Text="With prescription"></Label>
+                                <Grid RowDefinitions="50,50,50,50"
                           ColumnDefinitions="250*,250*" RowSpacing="5"
                           x:Name="PageGrid" HorizontalOptions="Start">
-                                <Grid RowDefinitions="*,*" RowSpacing="5">
-                                    <Label Text="Date of presciption"/>
-                                    <DatePicker Grid.Row="1" />
+                                    <Grid RowDefinitions="*,*" RowSpacing="5">
+                                        <Label Text="Date of presciption"/>
+                                        <DatePicker x:Name="Date" Grid.Row="1" />
+                                    </Grid>
+                                    <Entry x:Name="PhysicianName" Placeholder="Physician's name" Grid.Row="1" WidthRequest="250"/>
+                                    <Entry x:Name="PhysicianContact" Placeholder="Physician's Contact" Grid.Column="1" Grid.Row="1" WidthRequest="250" />
+                                    <Entry x:Name="PRCLicenseNumber" Placeholder="PRC license number"  Grid.Row="2" WidthRequest="250" />
+                                    <Entry x:Name="S2LicenseNumber" Placeholder="S2 license number" Grid.Column="1" Grid.Row="2" WidthRequest="250" />
                                 </Grid>
-                                <Entry Placeholder="Physician's name" Grid.Row="1" WidthRequest="250"/>
-                                <Entry Placeholder="Physician's Contact" Grid.Column="1" Grid.Row="1" WidthRequest="250" />
-                                <Entry Placeholder="PRC license number"  Grid.Row="2" WidthRequest="250" />
-                                <Entry Placeholder="S2 license number" Grid.Column="1" Grid.Row="2" WidthRequest="250" />
-                            </Grid>
-                            <Label Text="Medicine prescribe section"></Label>
-                            <Grid RowDefinitions="50" ColumnDefinitions="250, 250" >
-                                <Entry Placeholder="Generic name" Grid.Column="0" WidthRequest="250" />
-                                <Entry Placeholder="Dosage strength" Grid.Column="1" WidthRequest="250" />
-                            </Grid>
-                            <Grid RowDefinitions="100,100,100,100,50,50" ColumnDefinitions="500">
-                                <Editor Placeholder="Description" />
-                                <Editor Grid.Row="1" Placeholder="Pharmacy's Instruction"/>
-                                <Editor Grid.Row="2" Placeholder="Remarks" />
-                                <Editor Grid.Row="3" Placeholder="Amount Prescribed"/>
-                                <Entry  Grid.Row="4" Placeholder="Issued by:" HorizontalOptions="Start" WidthRequest="250"/>
-                                <Button Grid.Row="5" Text="Upload prescription" />
-                            </Grid>
-                        </VerticalStackLayout>
-                        <VerticalStackLayout Grid.Column="1">
-                            <Label Text="Without prescription section"></Label>
-                            <Grid RowDefinitions="100,100,50" ColumnDefinitions="500">
-                                <Editor Placeholder="Symptoms" Grid.Column="0" />
-                                <Editor Grid.Row="1" Placeholder="Pharmacist recommendation" Grid.Column="1" />
-                                <Entry  Grid.Row="4" Placeholder="Issued by:" HorizontalOptions="Start" WidthRequest="250"/>
-                            </Grid>
-                        </VerticalStackLayout>
-                    </Grid>
-                </VerticalStackLayout>
+                                <Label Text="Medicine prescribe section"></Label>
+                                <Grid RowDefinitions="50" ColumnDefinitions="250, 250" >
+                                    <Entry x:Name="GenericName" Placeholder="Generic name" Grid.Column="0" WidthRequest="250" />
+                                    <Entry x:Name="DosageStrength" Placeholder="Dosage strength" Grid.Column="1" WidthRequest="250" />
+                                </Grid>
+                                <Grid RowDefinitions="100,100,100,100,50,50" ColumnDefinitions="500">
+                                    <Editor x:Name="Description" Placeholder="Description" />
+                                    <Editor x:Name="PharmacyIntruction" Grid.Row="1" Placeholder="Pharmacy's Instruction"/>
+                                    <Editor x:Name="Remarks" Grid.Row="2" Placeholder="Remarks" />
+                                    <Editor x:Name="AmountPrescribed" Grid.Row="3" Placeholder="Amount Prescribed"/>
+                                    <Entry x:Name="IssuedBy1"  Grid.Row="4" Placeholder="Issued by:" HorizontalOptions="Start" WidthRequest="250"/>
+                                    <Button Grid.Row="5" Text="Upload prescription" />
+                                </Grid>
+                            </VerticalStackLayout>
+                            <VerticalStackLayout Grid.Column="1">
+                                <Label Text="Without prescription section"></Label>
+                                <Grid RowDefinitions="50,100,100,50,*" ColumnDefinitions="500">
+                                    <DatePicker x:Name="Date1" />
+                                    <Editor x:Name="Symptoms" Placeholder="Symptoms" Grid.Column="0" Grid.Row="1"  />
+                                    <Editor x:Name="PharmacistRecom" Grid.Row="2" Placeholder="Pharmacist recommendation" Grid.Column="1" />
+                                    <Entry x:Name="IssuedBy2"  Grid.Row="3" Placeholder="Issued by:" HorizontalOptions="Start" WidthRequest="250"/>
+                                    <HorizontalStackLayout Grid.Row="4" Grid.Column="1">
+                                        <Grid ColumnDefinitions="*,*,*" ColumnSpacing="5" Margin="5">
+                                            <Button Text="Save" VerticalOptions="Center"
+                                Clicked="SaveCustomer_Button_Clicked1"/>
+                                            <Button Grid.Column="1" Text="Close" VerticalOptions="Center"
+                                Clicked="Button_Clicked"/>
+                                        </Grid>
+                                    </HorizontalStackLayout>
+                                </Grid>
+                            </VerticalStackLayout>
+
+                            <HorizontalStackLayout Grid.Row="1">
+                                <Grid ColumnDefinitions="*,*,*" ColumnSpacing="5" Margin="5">
+                                    <Button Text="Save" VerticalOptions="Center"
+                                Clicked="SaveCustomer_Button_Clicked"/>
+                                    <Button Grid.Column="1" Text="Close" VerticalOptions="Center"
+                                Clicked="Button_Clicked"/>
+                                </Grid>
+                            </HorizontalStackLayout>
+
+                        </Grid>
+                    </VerticalStackLayout>
             </Border>
         </Grid>
+        </StackLayout>
     </ScrollView>
+
 </ContentPage>

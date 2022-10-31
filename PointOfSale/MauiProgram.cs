@@ -3,6 +3,8 @@ using Microsoft.Maui.LifecycleEvents;
 using Microsoft.Maui.Platform;
 using SkiaSharp.Views.Maui.Controls.Hosting;
 using ZXing.Net.Maui;
+using Syncfusion.Maui.Core.Hosting;
+using Syncfusion.Maui.DataGrid.Hosting;
 
 #if WINDOWS
 using Microsoft.UI;
@@ -35,7 +37,9 @@ public static class MauiProgram
             });
 
         builder.Services.AddMauiBlazorWebView();
-        
+        builder.ConfigureSyncfusionCore();
+        builder.ConfigureSyncfusionDataGrid();
+
 #if WINDOWS
             builder.ConfigureLifecycleEvents(events =>
             {

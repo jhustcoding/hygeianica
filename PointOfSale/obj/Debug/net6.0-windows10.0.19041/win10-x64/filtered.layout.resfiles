@@ -105,6 +105,11 @@ home.scale-125.png
 home.scale-150.png
 home.scale-200.png
 home.scale-400.png
+human_resource.scale-100.png
+human_resource.scale-125.png
+human_resource.scale-150.png
+human_resource.scale-200.png
+human_resource.scale-400.png
 iced_tea.scale-100.png
 info.scale-100.png
 info.scale-125.png
@@ -124,6 +129,11 @@ logout.scale-125.png
 logout.scale-150.png
 logout.scale-200.png
 logout.scale-400.png
+medicine.scale-100.png
+medicine.scale-125.png
+medicine.scale-150.png
+medicine.scale-200.png
+medicine.scale-400.png
 message.scale-100.png
 message.scale-125.png
 message.scale-150.png
@@ -165,6 +175,11 @@ store.scale-125.png
 store.scale-150.png
 store.scale-200.png
 store.scale-400.png
+supplier.scale-100.png
+supplier.scale-125.png
+supplier.scale-150.png
+supplier.scale-200.png
+supplier.scale-400.png
 tea.scale-100.png
 unlock.scale-100.png
 unlock.scale-125.png

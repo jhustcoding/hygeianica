@@ -83,7 +83,7 @@
                        Grid.Row="0"
                        Margin="0,15,0,15"/>                    
 
-                <RadioButton Value="home" IsChecked="True" Grid.Row="1"
+                <RadioButton Value="dashboard" IsChecked="True" Grid.Row="1"
                              CheckedChanged="OnMenuItemChanged">
                     <RadioButton.Content>
                         <Image Source="home.png">
@@ -111,10 +111,10 @@
                     </RadioButton.Content>
                 </RadioButton>
 
-                <RadioButton Value="dashboard" Grid.Row="3"
+                <RadioButton Value="supplier" Grid.Row="3"
                                     CheckedChanged="OnMenuItemChanged">
                     <RadioButton.Content>                            
-                        <Image Source="graph.png">
+                        <Image Source="supplier.png">
                             <!--<Image.Behaviors>
                                 <mct:IconTintColorBehavior
                                     TintColor="{Binding IsChecked,
@@ -126,10 +126,10 @@
                     </RadioButton.Content>
                 </RadioButton>
 
-                <RadioButton Value="settings" Grid.Row="4"
+                <RadioButton Value="medicine" Grid.Row="4"
                                 CheckedChanged="OnMenuItemChanged">
-                    <RadioButton.Content>                            
-                        <Image Source="setting.png">
+                    <RadioButton.Content>
+                        <Image Source="medicine.png">
                             <!--<Image.Behaviors>
                                 <mct:IconTintColorBehavior
                                     TintColor="{Binding IsChecked,
@@ -141,10 +141,10 @@
                     </RadioButton.Content>
                 </RadioButton>
 
-                <RadioButton Value="addproduct" Grid.Row="5"
+                <RadioButton Value="humanresource" Grid.Row="5"
                                 CheckedChanged="OnMenuItemChanged">
-                    <RadioButton.Content>                            
-                        <Image Source="discount.png">
+                    <RadioButton.Content>
+                        <Image Source="human_resource.png">
                             <!--<Image.Behaviors>
                                 <mct:IconTintColorBehavior
                                     TintColor="{Binding IsChecked,
@@ -156,10 +156,10 @@
                     </RadioButton.Content>
                 </RadioButton>                    
 
-                <RadioButton Value="message" Grid.Row="6"
+                <RadioButton Value="setting" Grid.Row="6"
                                     CheckedChanged="OnMenuItemChanged">
                     <RadioButton.Content>                            
-                        <Image Source="message.png">
+                        <Image Source="setting.png">
                             <!--<Image.Behaviors>
                                 <mct:IconTintColorBehavior
                                     TintColor="{Binding IsChecked,
@@ -192,11 +192,11 @@
     <FlyoutItem Title="Dashboard" Route="dashboard">
         <ShellContent ContentTemplate="{DataTemplate pages:DashboardPage}"/>
     </FlyoutItem>
-    <FlyoutItem Title="Settings" Route="settings">
-        <ShellContent ContentTemplate="{DataTemplate pages:SettingsPage}"/>
+    <FlyoutItem Title="Supplier" Route="supplier">
+        <ShellContent ContentTemplate="{DataTemplate pages:AddSupplierPage}"/>
     </FlyoutItem>
-    <FlyoutItem Title="Discounts" Route="discount">
-        <ShellContent ContentTemplate="{DataTemplate pages:EmptyPage}"/>
+    <FlyoutItem Title="Medicine" Route="medicine">
+        <ShellContent ContentTemplate="{DataTemplate pages:ConsultationPage}"/>
     </FlyoutItem>
     <FlyoutItem Title="Messages" Route="message">
         <ShellContent ContentTemplate="{DataTemplate pages:EmptyPage}"/>
@@ -204,8 +204,8 @@
     <FlyoutItem Title="Notifications" Route="notification">
         <ShellContent ContentTemplate="{DataTemplate pages:EmptyPage}"/>
     </FlyoutItem>
-    <FlyoutItem Title="AddProduct" Route="addproduct">
-        <ShellContent ContentTemplate="{DataTemplate pages:AddProductPage}"/>
+    <FlyoutItem Title="AddManufacturer" Route="addmanufacturer">
+        <ShellContent ContentTemplate="{DataTemplate pages:AddManufacturerPage}"/>
     </FlyoutItem>
     <!--<FlyoutItem Title="AddProduct" Route="addproduct">
         <ShellContent ContentTemplate="{DataTemplate pages:AddProductPage}"/>

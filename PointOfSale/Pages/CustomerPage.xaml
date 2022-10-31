@@ -3,8 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PointOfSale.Pages.CustomerPage"
              xmlns:a="clr-namespace:PointOfSale"
-             Title="CustomerPage">
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.DataGrid;assembly=Syncfusion.Maui.DataGrid"
+             Title="CustomerPage"
+             xmlns:m="clr-namespace:PointOfSale.Models"
+             >
 
+    <ContentPage.Resources>
+        <Style TargetType="syncfusion:DataGridCell">
+            <Setter Property="TextColor" Value="#fff"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontFamily" Value="OpenSansRegular"/>
+        </Style>
+        <Style TargetType="syncfusion:DataGridHeaderCell">
+            <Setter Property="TextColor" Value="#fff"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontFamily" Value="OpenSansRegular"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <m:CustomerViewModel/>
+    </ContentPage.BindingContext>
     <ScrollView Grid.Row="1" Margin="0,24,0,24">
         <Grid RowDefinitions="150,*" RowSpacing="24"
                   ColumnDefinitions="*,*,*" ColumnSpacing="24">
@@ -65,42 +83,37 @@
                 </Grid>
             </Border>
             <Border Grid.Column="1"
-                    HorizontalOptions="Start"
-                    Margin="5,0,0,0"
-                    HeightRequest="48"
-                    WidthRequest="300"
-                    Background="{StaticResource DarkBg1Brush}"
-                    Stroke="{StaticResource SecondaryBrush}"
-                    StrokeThickness="1"
-            >
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="8"/>
-                </Border.StrokeShape>
-                <HorizontalStackLayout>
-                    <Image Source="{FontImage Color=White, FontFamily=FontAwesome, Glyph={x:Static a:IconFont.Search},Size=14}"
+                    HorizontalOptions="Center"
+                    Style="{StaticResource DarkBorderView}">
+                <Grid RowDefinitions="*,*">
+                    <HorizontalStackLayout>
+                        <Image Source="{FontImage Color=White, FontFamily=FontAwesome, Glyph={x:Static a:IconFont.Search},Size=14}"
                            Margin="14,0"
-                           VerticalOptions="Center"
-                    />
-                    <Entry Background="Transparent"
+                           VerticalOptions="Center" />
+                        <Entry Background="Transparent"
                            Placeholder="Search for name, email etc"
                            PlaceholderColor="{StaticResource TextSecondary}"
                            TextColor="White"
                            VerticalOptions="Center"
                            WidthRequest="250"
                            FontSize="14"/>
-                </HorizontalStackLayout>
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Grid.Row="1">
+                        <Grid ColumnDefinitions="*,*,*" ColumnSpacing="5" Margin="5">
+                            <Button Text="Add customer" VerticalOptions="Center"
+                                Clicked="OnCounterClicked"/>
+                            <Button Grid.Column="1" Text="Credit customer" VerticalOptions="Center"
+                                Clicked="OnCounterClicked"/>
+                            <Button Grid.Column="2" Text="Paid customer" VerticalOptions="Center"
+                                Clicked="OnCounterClicked"/>
+                        </Grid>
+                    </HorizontalStackLayout>
+                </Grid>
             </Border>
             <Border
                     Grid.Row="0" Grid.Column="2"
                     Style="{StaticResource DarkBorderView}">
-                <Grid ColumnDefinitions="1*,7*" ColumnSpacing="5" 
-                      Margin="5">
 
-                    <Button Text="Export" VerticalOptions="Center"
-                            Command="{Binding NotImplementedCommand}"/>
-                    <Button Grid.Column="1" Text="Add Customer" VerticalOptions="Center"
-                            Clicked="OnCounterClicked"/>
-                </Grid>
             </Border>
 
             <!-- Orders list -->
@@ -130,7 +143,7 @@
 
                     <ScrollView Grid.Row="1">
                         <VerticalStackLayout Spacing="16">
-                            <!-- heading -->
+                            <!-- heading --><!--
                             <Grid ColumnDefinitions="200,200,200,200,200,100,100,100,20,*,*">
                                 <Label Text="Name" Style="{StaticResource Headline}"/>
                                 <Label Text="Phone" Grid.Column="1" Style="{StaticResource Headline}"/>
@@ -147,7 +160,7 @@
 
                             <BoxView Style="{StaticResource HRule}"/>
 
-                            <Grid ColumnDefinitions="200,200,200,200,200,100,100,100,20,50,20">
+                            <Grid ColumnDefinitions="200,200,200,200,200,100,100,100,20,50,20" >
                                 <Label Text="Jhulez Dayrit" />
                                 <Label Text="099999999999" Grid.Column="1" />
                                 <Label Text="jhulez@gmail.com" Grid.Column="2" />
@@ -161,7 +174,31 @@
        
                                 <Image Grid.Column="9" Source="edit.png"/>
                                 <Image Grid.Column="10"  Source="consultation.png"/>
-                            </Grid>
+                            </Grid>-->
+
+
+                            <syncfusion:SfDataGrid x:Name="dataGrid"
+            AutoGenerateColumnsMode="None" DefaultColumnWidth="200" CellTapped="dataGrid_CellTapped"
+        
+            ItemsSource="{Binding CustomersInfoCollection}">
+                                <syncfusion:SfDataGrid.Columns  >
+                                    <syncfusion:DataGridTextColumn HeaderText="Given name"
+                                   MappingName="GivenName" />
+                                    <syncfusion:DataGridTextColumn HeaderText="Last name"
+                                   MappingName="LastName"/>
+                                    <syncfusion:DataGridTextColumn HeaderText="Contact" MappingName="Contact"/>
+                                    <syncfusion:DataGridTextColumn HeaderText="Email"
+                                   MappingName="Email"/>
+                                    <syncfusion:DataGridTextColumn HeaderText="Birth date"
+                                   MappingName="BirthDate"/>
+                                    <syncfusion:DataGridTextColumn HeaderText="Age"
+                                   MappingName="Age"/>
+                                    <syncfusion:DataGridTextColumn HeaderText="Gender"
+                                   MappingName="Gender"/>
+                                    <syncfusion:DataGridTextColumn HeaderText="Discount"
+                                   MappingName="Discount"/>
+                                </syncfusion:SfDataGrid.Columns>
+                            </syncfusion:SfDataGrid>
 
                         </VerticalStackLayout>
 

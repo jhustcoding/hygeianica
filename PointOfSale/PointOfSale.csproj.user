@@ -9,6 +9,12 @@
     <MauiXaml Update="Pages\AddCustomerPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\AddManufacturerPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\AddSupplierPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\ConsultationPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -21,5 +27,10 @@
     <MauiXaml Update="Pages\Views\ConsultationPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Platforms\Windows\Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
 </Project>

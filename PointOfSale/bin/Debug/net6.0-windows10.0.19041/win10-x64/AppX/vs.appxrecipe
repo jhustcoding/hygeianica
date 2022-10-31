@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\dev\srccode\hygeianica\PointOfSale\bin\Debug\net6.0-windows10.0.19041\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-23T16:09:49.283</Modified>
+      <Modified>2022-10-31T04:11:41.443</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\bin\Debug\net6.0-windows10.0.19041\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-10-23T16:09:48.748</Modified>
+      <Modified>2022-10-31T04:05:51.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\bin\Debug\net6.0-windows10.0.19041\win10-x64\Food.runtimeconfig.json">
       <PackagePath>Food.runtimeconfig.json</PackagePath>
-      <Modified>2022-10-23T06:27:36.720</Modified>
+      <Modified>2022-10-30T19:40:36.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\bin\Debug\net6.0-windows10.0.19041\win10-x64\Food.dll">
       <PackagePath>Food.dll</PackagePath>
-      <Modified>2022-10-23T16:09:47.553</Modified>
+      <Modified>2022-10-31T04:11:26.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\apphost.exe">
       <PackagePath>Food.exe</PackagePath>
-      <Modified>2022-10-23T16:09:47.597</Modified>
+      <Modified>2022-10-31T04:11:26.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -977,6 +977,10 @@
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
       <Modified>2022-08-03T23:09:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\dnsclient\1.6.1\lib\net5.0\DnsClient.dll">
+      <PackagePath>DnsClient.dll</PackagePath>
+      <Modified>2022-06-10T20:37:22.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\microcharts\0.9.5.9\lib\netstandard2.0\Microcharts.dll">
       <PackagePath>Microcharts.dll</PackagePath>
       <Modified>2020-10-19T00:31:06.000</Modified>
@@ -1133,6 +1137,22 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\mongodb.bson\2.18.0\lib\netstandard2.1\MongoDB.Bson.dll">
+      <PackagePath>MongoDB.Bson.dll</PackagePath>
+      <Modified>2022-10-14T16:36:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\mongodb.driver\2.18.0\lib\netstandard2.1\MongoDB.Driver.dll">
+      <PackagePath>MongoDB.Driver.dll</PackagePath>
+      <Modified>2022-10-14T16:36:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\mongodb.driver.core\2.18.0\lib\netstandard2.1\MongoDB.Driver.Core.dll">
+      <PackagePath>MongoDB.Driver.Core.dll</PackagePath>
+      <Modified>2022-10-14T16:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\mongodb.libmongocrypt\1.6.0\lib\netstandard2.1\MongoDB.Libmongocrypt.dll">
+      <PackagePath>MongoDB.Libmongocrypt.dll</PackagePath>
+      <Modified>2022-09-07T16:49:14.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\redth.zxing.net.maui\0.1.0-preview.4\lib\net6.0-windows10.0.19041\ZXing.Net.MAUI.dll">
       <PackagePath>ZXing.Net.MAUI.dll</PackagePath>
       <Modified>2022-08-08T23:01:02.000</Modified>
@@ -1140,6 +1160,10 @@
     <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\ril.blazorsignaturecanvas\0.1.0-alpha\lib\net6.0\Ril.BlazorSignatureCanvas.dll">
       <PackagePath>Ril.BlazorSignatureCanvas.dll</PackagePath>
       <Modified>2022-02-01T20:32:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\sharpcompress\0.30.1\lib\net5.0\SharpCompress.dll">
+      <PackagePath>SharpCompress.dll</PackagePath>
+      <Modified>2021-11-22T09:21:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\skiasharp\2.88.1-preview.91\lib\net6.0\SkiaSharp.dll">
       <PackagePath>SkiaSharp.dll</PackagePath>
@@ -1173,9 +1197,45 @@
       <PackagePath>SkiaSharp.Views.Windows.dll</PackagePath>
       <Modified>2022-07-14T18:37:00.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\snappier\1.0.0\lib\net5.0\Snappier.dll">
+      <PackagePath>Snappier.dll</PackagePath>
+      <Modified>2021-01-23T17:43:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\syncfusion.licensing\20.3.0.52\lib\net6.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+      <Modified>2022-10-26T10:51:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\syncfusion.maui.core\20.3.52\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.Core.dll">
+      <PackagePath>Syncfusion.Maui.Core.dll</PackagePath>
+      <Modified>2022-10-26T08:56:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\syncfusion.maui.data\20.3.52\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.Data.dll">
+      <PackagePath>Syncfusion.Maui.Data.dll</PackagePath>
+      <Modified>2022-10-26T08:59:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\syncfusion.maui.datagrid\20.3.52\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.DataGrid.dll">
+      <PackagePath>Syncfusion.Maui.DataGrid.dll</PackagePath>
+      <Modified>2022-10-26T08:59:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\syncfusion.maui.gridcommon\20.3.52\lib\net6.0-windows10.0.19041.0\Syncfusion.Maui.GridCommon.dll">
+      <PackagePath>Syncfusion.Maui.GridCommon.dll</PackagePath>
+      <Modified>2022-10-26T08:58:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\syncfusion.xamarin.datasource\20.3.0.52\lib\netstandard2.0\Syncfusion.DataSource.Portable.dll">
+      <PackagePath>Syncfusion.DataSource.Portable.dll</PackagePath>
+      <Modified>2022-10-26T11:12:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\syncfusion.xamarin.gridcommon\20.3.0.52\lib\netstandard2.0\Syncfusion.GridCommon.Portable.dll">
+      <PackagePath>Syncfusion.GridCommon.Portable.dll</PackagePath>
+      <Modified>2022-10-26T11:12:16.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\system.io.pipelines\6.0.3\lib\net6.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
       <Modified>2022-04-13T17:49:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\zstdsharp.port\0.6.2\lib\net6.0\ZstdSharp.dll">
+      <PackagePath>ZstdSharp.dll</PackagePath>
+      <Modified>2022-08-02T19:04:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\zxing.net\0.16.8\lib\net6.0\zxing.dll">
       <PackagePath>zxing.dll</PackagePath>
@@ -1189,13 +1249,25 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\mongodb.libmongocrypt\1.6.0\runtimes\win\native\mongocrypt.dll">
+      <PackagePath>mongocrypt.dll</PackagePath>
+      <Modified>2022-09-07T13:48:46.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\skiasharp.nativeassets.win32\2.88.1-preview.91\runtimes\win-x64\native\libSkiaSharp.dll">
       <PackagePath>libSkiaSharp.dll</PackagePath>
       <Modified>2022-07-14T18:37:46.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\Backend.Server\bin\Debug\net6.0\Backend.Server.dll">
+      <PackagePath>Backend.Server.dll</PackagePath>
+      <Modified>2022-10-31T00:50:55.340</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\Structures\bin\Debug\net6.0\Structures.dll">
+      <PackagePath>Structures.dll</PackagePath>
+      <Modified>2022-10-31T04:03:01.135</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\Food.deps.json">
       <PackagePath>Food.deps.json</PackagePath>
-      <Modified>2022-10-23T16:09:49.158</Modified>
+      <Modified>2022-10-31T04:11:41.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.541\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1315,23 +1387,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\food_01SplashScreen.scale-100.png">
       <PackagePath>food_01SplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-10-18T05:09:20.000</Modified>
+      <Modified>2022-10-30T19:40:29.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\food_01SplashScreen.scale-125.png">
       <PackagePath>food_01SplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-10-18T05:09:20.000</Modified>
+      <Modified>2022-10-30T19:40:29.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\food_01SplashScreen.scale-150.png">
       <PackagePath>food_01SplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-10-18T05:09:22.000</Modified>
+      <Modified>2022-10-30T19:40:29.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\food_01SplashScreen.scale-200.png">
       <PackagePath>food_01SplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-10-18T05:09:22.000</Modified>
+      <Modified>2022-10-30T19:40:29.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\food_01SplashScreen.scale-400.png">
       <PackagePath>food_01SplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-10-18T05:09:22.000</Modified>
+      <Modified>2022-10-30T19:40:29.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\f\FabIconFont.cs">
       <PackagePath>FabIconFont.cs</PackagePath>
@@ -1359,187 +1431,187 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\add_customer.scale-100.png">
       <PackagePath>add_customer.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\add_customer.scale-125.png">
       <PackagePath>add_customer.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\add_customer.scale-150.png">
       <PackagePath>add_customer.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.181</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\add_customer.scale-200.png">
       <PackagePath>add_customer.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\add_customer.scale-400.png">
       <PackagePath>add_customer.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.300</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.412</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.339</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.422</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_down.scale-100.png">
       <PackagePath>arrow_down.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_down.scale-125.png">
       <PackagePath>arrow_down.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_down.scale-150.png">
       <PackagePath>arrow_down.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.227</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_down.scale-200.png">
       <PackagePath>arrow_down.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.233</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_down.scale-400.png">
       <PackagePath>arrow_down.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_up.scale-100.png">
       <PackagePath>arrow_up.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_up.scale-125.png">
       <PackagePath>arrow_up.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_up.scale-150.png">
       <PackagePath>arrow_up.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_up.scale-200.png">
       <PackagePath>arrow_up.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\arrow_up.scale-400.png">
       <PackagePath>arrow_up.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.203</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\budae_jjigae.scale-100.png">
       <PackagePath>budae_jjigae.scale-100.png</PackagePath>
@@ -1555,143 +1627,143 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\coin.scale-100.png">
       <PackagePath>coin.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\coin.scale-125.png">
       <PackagePath>coin.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\coin.scale-150.png">
       <PackagePath>coin.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\coin.scale-200.png">
       <PackagePath>coin.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.199</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\coin.scale-400.png">
       <PackagePath>coin.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\consultation.scale-100.png">
       <PackagePath>consultation.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\consultation.scale-125.png">
       <PackagePath>consultation.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\consultation.scale-150.png">
       <PackagePath>consultation.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\consultation.scale-200.png">
       <PackagePath>consultation.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\consultation.scale-400.png">
       <PackagePath>consultation.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\customer.scale-100.png">
       <PackagePath>customer.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\customer.scale-125.png">
       <PackagePath>customer.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\customer.scale-150.png">
       <PackagePath>customer.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\customer.scale-200.png">
       <PackagePath>customer.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.194</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\customer.scale-400.png">
       <PackagePath>customer.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.203</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\discount.scale-100.png">
       <PackagePath>discount.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\discount.scale-125.png">
       <PackagePath>discount.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\discount.scale-150.png">
       <PackagePath>discount.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.227</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\discount.scale-200.png">
       <PackagePath>discount.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.231</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\discount.scale-400.png">
       <PackagePath>discount.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.194</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\edit.scale-100.png">
       <PackagePath>edit.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\edit.scale-125.png">
       <PackagePath>edit.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\edit.scale-150.png">
       <PackagePath>edit.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\edit.scale-200.png">
       <PackagePath>edit.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\edit.scale-400.png">
       <PackagePath>edit.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\filter.scale-100.png">
       <PackagePath>filter.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\filter.scale-125.png">
       <PackagePath>filter.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.161</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\filter.scale-150.png">
       <PackagePath>filter.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.181</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\filter.scale-200.png">
       <PackagePath>filter.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\filter.scale-400.png">
       <PackagePath>filter.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.203</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\food_01.scale-100.png">
       <PackagePath>food_01.scale-100.png</PackagePath>
@@ -1703,63 +1775,83 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\graph.scale-100.png">
       <PackagePath>graph.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\graph.scale-125.png">
       <PackagePath>graph.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\graph.scale-150.png">
       <PackagePath>graph.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\graph.scale-200.png">
       <PackagePath>graph.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\graph.scale-400.png">
       <PackagePath>graph.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\heart.scale-100.png">
       <PackagePath>heart.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\heart.scale-125.png">
       <PackagePath>heart.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\heart.scale-150.png">
       <PackagePath>heart.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\heart.scale-200.png">
       <PackagePath>heart.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.194</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\heart.scale-400.png">
       <PackagePath>heart.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\home.scale-100.png">
       <PackagePath>home.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\home.scale-125.png">
       <PackagePath>home.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\home.scale-150.png">
       <PackagePath>home.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\home.scale-200.png">
       <PackagePath>home.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\home.scale-400.png">
       <PackagePath>home.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\human_resource.scale-100.png">
+      <PackagePath>human_resource.scale-100.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\human_resource.scale-125.png">
+      <PackagePath>human_resource.scale-125.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\human_resource.scale-150.png">
+      <PackagePath>human_resource.scale-150.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\human_resource.scale-200.png">
+      <PackagePath>human_resource.scale-200.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\human_resource.scale-400.png">
+      <PackagePath>human_resource.scale-400.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\iced_tea.scale-100.png">
       <PackagePath>iced_tea.scale-100.png</PackagePath>
@@ -1767,23 +1859,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\info.scale-100.png">
       <PackagePath>info.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\info.scale-125.png">
       <PackagePath>info.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\info.scale-150.png">
       <PackagePath>info.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\info.scale-200.png">
       <PackagePath>info.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\info.scale-400.png">
       <PackagePath>info.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\jajangmyeon.scale-100.png">
       <PackagePath>jajangmyeon.scale-100.png</PackagePath>
@@ -1799,63 +1891,83 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logo.scale-125.png">
       <PackagePath>logo.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logo.scale-150.png">
       <PackagePath>logo.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logo.scale-200.png">
       <PackagePath>logo.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logo.scale-400.png">
       <PackagePath>logo.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-100.png">
       <PackagePath>logout.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-125.png">
       <PackagePath>logout.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-150.png">
       <PackagePath>logout.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-200.png">
       <PackagePath>logout.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\logout.scale-400.png">
       <PackagePath>logout.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\medicine.scale-100.png">
+      <PackagePath>medicine.scale-100.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\medicine.scale-125.png">
+      <PackagePath>medicine.scale-125.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\medicine.scale-150.png">
+      <PackagePath>medicine.scale-150.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\medicine.scale-200.png">
+      <PackagePath>medicine.scale-200.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\medicine.scale-400.png">
+      <PackagePath>medicine.scale-400.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\message.scale-100.png">
       <PackagePath>message.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\message.scale-125.png">
       <PackagePath>message.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\message.scale-150.png">
       <PackagePath>message.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\message.scale-200.png">
       <PackagePath>message.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\message.scale-400.png">
       <PackagePath>message.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\milk.scale-100.png">
       <PackagePath>milk.scale-100.png</PackagePath>
@@ -1871,63 +1983,63 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\notification.scale-100.png">
       <PackagePath>notification.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\notification.scale-125.png">
       <PackagePath>notification.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\notification.scale-150.png">
       <PackagePath>notification.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\notification.scale-200.png">
       <PackagePath>notification.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.197</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\notification.scale-400.png">
       <PackagePath>notification.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\order.scale-100.png">
       <PackagePath>order.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\order.scale-125.png">
       <PackagePath>order.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\order.scale-150.png">
       <PackagePath>order.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\order.scale-200.png">
       <PackagePath>order.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.199</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\order.scale-400.png">
       <PackagePath>order.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\qr.scale-100.png">
       <PackagePath>qr.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\qr.scale-125.png">
       <PackagePath>qr.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.396</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\qr.scale-150.png">
       <PackagePath>qr.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\qr.scale-200.png">
       <PackagePath>qr.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\qr.scale-400.png">
       <PackagePath>qr.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:31.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\qr_code.scale-100.png">
       <PackagePath>qr_code.scale-100.png</PackagePath>
@@ -1935,43 +2047,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting.scale-100.png">
       <PackagePath>setting.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting.scale-125.png">
       <PackagePath>setting.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting.scale-150.png">
       <PackagePath>setting.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting.scale-200.png">
       <PackagePath>setting.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting.scale-400.png">
       <PackagePath>setting.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting_on.scale-100.png">
       <PackagePath>setting_on.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting_on.scale-125.png">
       <PackagePath>setting_on.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting_on.scale-150.png">
       <PackagePath>setting_on.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting_on.scale-200.png">
       <PackagePath>setting_on.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\setting_on.scale-400.png">
       <PackagePath>setting_on.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\soda.scale-100.png">
       <PackagePath>soda.scale-100.png</PackagePath>
@@ -1983,23 +2095,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\store.scale-100.png">
       <PackagePath>store.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\store.scale-125.png">
       <PackagePath>store.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\store.scale-150.png">
       <PackagePath>store.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\store.scale-200.png">
       <PackagePath>store.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\store.scale-400.png">
       <PackagePath>store.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\supplier.scale-100.png">
+      <PackagePath>supplier.scale-100.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\supplier.scale-125.png">
+      <PackagePath>supplier.scale-125.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\supplier.scale-150.png">
+      <PackagePath>supplier.scale-150.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\supplier.scale-200.png">
+      <PackagePath>supplier.scale-200.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\supplier.scale-400.png">
+      <PackagePath>supplier.scale-400.png</PackagePath>
+      <Modified>2022-10-30T19:40:30.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\tea.scale-100.png">
       <PackagePath>tea.scale-100.png</PackagePath>
@@ -2007,23 +2139,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\unlock.scale-100.png">
       <PackagePath>unlock.scale-100.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\unlock.scale-125.png">
       <PackagePath>unlock.scale-125.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\unlock.scale-150.png">
       <PackagePath>unlock.scale-150.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.227</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\unlock.scale-200.png">
       <PackagePath>unlock.scale-200.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\dev\srccode\hygeianica\PointOfSale\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\unlock.scale-400.png">
       <PackagePath>unlock.scale-400.png</PackagePath>
-      <Modified>2022-10-18T15:51:26.000</Modified>
+      <Modified>2022-10-30T19:40:30.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jhust\.nuget\packages\ril.blazorsignaturecanvas\0.1.0-alpha\contentFiles\any\net6.0\StaticAssets\package-lock.json">
       <PackagePath>StaticAssets\package-lock.json</PackagePath>
