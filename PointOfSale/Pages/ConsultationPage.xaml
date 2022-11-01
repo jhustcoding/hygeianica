@@ -84,7 +84,7 @@
                     </Grid>-->
                         <Grid RowDefinitions="*,*">
                             <ScrollView>
-                            <syncfusion:SfDataGrid x:Name="dataGrid"
+                            <syncfusion:SfDataGrid x:Name="dataGrid" 
                                 AutoGenerateColumnsMode="None" DefaultColumnWidth="200" CellTapped="dataGrid_CellTapped"
                                 ItemsSource="{Binding PrescribeConsultationInfoCollection}">
                                 <syncfusion:SfDataGrid.Columns  >

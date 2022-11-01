@@ -13,7 +13,7 @@ public partial class AppShell : Shell
 
     private void InitRoutes()
     {
-        Routing.RegisterRoute(nameof(AddProductView), typeof(AddProductView));
+        Routing.RegisterRoute(nameof(DashboardPage), typeof(DashboardPage));
     }
 
     private string selectedRoute;
