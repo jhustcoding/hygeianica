@@ -227,7 +227,7 @@
                             <Grid ColumnDefinitions="60,*">
                                 <Image WidthRequest="40" HeightRequest="40"
                                            Aspect="AspectFit"
-                                           Source="food_01.png"/>
+                                           Source="medicine.png"/>
                                 <Label Style="{StaticResource Headline}" Grid.Column="1">
                                     <Label.FormattedText>
                                         <FormattedString>
