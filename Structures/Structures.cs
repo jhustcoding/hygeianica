@@ -58,6 +58,7 @@ namespace Structures
     {
         [BsonId(IdGenerator = typeof(ObjectIdGenerator))]
         public ObjectId Id { get; set; }
+        public string? CustomerEmail { get; set; }
         public string? Date { get; set; }  
         public string? PhysicianName { get; set; }
         public string? PhysicianContact { get; set; }
@@ -84,6 +85,7 @@ namespace Structures
     {
         [BsonId(IdGenerator = typeof(ObjectIdGenerator))]
         public ObjectId Id { get; set; }
+        public string? CustomerEmail { get; set; }
         public string? Date { get; set; }
         public string? Symptoms { get; set; }
         public string? PharmacyRecommendation { get; set; }

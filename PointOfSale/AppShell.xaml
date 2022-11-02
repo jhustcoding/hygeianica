@@ -97,7 +97,7 @@
                     </RadioButton.Content>
                 </RadioButton>
 
-                <RadioButton Value="customer" IsChecked="True" Grid.Row="2"
+                <RadioButton Value="customer" IsChecked="False" Grid.Row="2"
                              CheckedChanged="OnMenuItemChanged">
                     <RadioButton.Content>
                         <Image Source="customer.png">

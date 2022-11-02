@@ -9,12 +9,14 @@
         <Setter Property="TextColor" Value="Black"/>
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="FontFamily" Value="OpenSansRegular"/>
+        <Setter Property="Background" Value="White"/>
     </Style>
     <Style TargetType="syncfusion:DataGridHeaderCell">
-        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="TextColor" Value="White"/>
         <Setter Property="FontSize" Value="16"/>
         <Setter Property="FontFamily" Value="OpenSansRegular"/>
-        <Setter Property="Background" Value="#0074E3"/>
+        <Setter Property="Background" Value="{StaticResource DarkBg1Brush}"/>
+        
     </Style>
 
     <Style TargetType="syncfusion:SfDataGrid">
@@ -102,8 +104,10 @@
 
     <Style TargetType="Page" ApplyToDerivedTypes="True">
         <Setter Property="Padding" Value="0"/>
-        <Setter Property="BackgroundColor"
-            Value="White"/>
+        <Setter Property="Background"
+          Value="{AppThemeBinding
+                Dark={StaticResource DarkBg1Brush},
+                Light={StaticResource WhiteBrush}}"/>
         <Setter Property="Shell.NavBarIsVisible" Value="True"/>
     </Style>
 

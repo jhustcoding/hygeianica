@@ -11,9 +11,11 @@ namespace PointOfSale.Pages;
 
 public partial class ConsultationPage : Popup
 {
-	public ConsultationPage()
+    private string _email = "";
+	public ConsultationPage(string email)
 	{
 		InitializeComponent();
+        _email = email;
     }
 
     private void SaveCustomer_Button_Clicked(object sender, EventArgs e)
@@ -33,6 +35,7 @@ public partial class ConsultationPage : Popup
         var dbHelper = new DBHelper();
         var prescribeConsultation = new PrescribeConsultation()
         {
+            CustomerEmail = _email,
             PhysicianName = PhysicianName.Text,
             PhysicianContact = PhysicianContact.Text,
             PRCLicenseNumber = PRCLicenseNumber.Text,

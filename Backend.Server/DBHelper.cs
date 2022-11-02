@@ -32,9 +32,9 @@ namespace Backend.Server.DataLayer
             return collection.Find(x => true).ToList();
         }
 
-        public async Task<List<T>> GetFilteredDocuments<T>(string dbName, string collectionName, FilterDefinition<T> filter)
+        public List<T> GetFilteredDocuments<T>(string dbName, string collectionName, FilterDefinition<T> filter)
         {
-            return await GetCollection<T>(dbName, collectionName).Find(filter).ToListAsync();
+            return GetCollection<T>(dbName, collectionName).Find(filter).ToList();
         }
 
         public async Task UpdateDocument<T>(string dbName, string collectionName, FilterDefinition<T> filter, UpdateDefinition<T> document)

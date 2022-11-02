@@ -146,7 +146,7 @@
                                 <!-- heading -->
                                 <Grid ColumnDefinitions="200,*,150,150">
                                     <Label Text="Customer" Style="{StaticResource Headline}"/>
-                                    <Label Text="Menu" Grid.Column="1" Style="{StaticResource Headline}"/>
+                                    <Label Text="Medicine" Grid.Column="1" Style="{StaticResource Headline}"/>
                                     <Label Text="Payment" Grid.Column="2" Style="{StaticResource Headline}"/>
                                     <Label Text="Status" Grid.Column="3" Style="{StaticResource Headline}"/>
                                 </Grid>
@@ -154,6 +154,12 @@
                                 <BoxView Style="{StaticResource HRule}"/>
 
                                 <Grid ColumnDefinitions="200,*,150,150">
+                                    <Label Text="Jhulez Dayrit" />
+                                    <Label Text="Paracetamol" Grid.Column="1" />
+                                    <Label Text="PHP5.95" Grid.Column="2" />
+                                    <Label Text="Completed" Grid.Column="3" />
+                                </Grid>
+                                <!--<Grid ColumnDefinitions="200,*,150,150">
                                     <Label Text="David Ortinau" />
                                     <Label Text="Spicy Noodles" Grid.Column="1" />
                                     <Label Text="$5.95" Grid.Column="2" />
@@ -170,13 +176,7 @@
                                     <Label Text="Spicy Noodles" Grid.Column="1" />
                                     <Label Text="$5.95" Grid.Column="2" />
                                     <Label Text="Completed" Grid.Column="3" />
-                                </Grid>
-                                <Grid ColumnDefinitions="200,*,150,150">
-                                    <Label Text="David Ortinau" />
-                                    <Label Text="Spicy Noodles" Grid.Column="1" />
-                                    <Label Text="$5.95" Grid.Column="2" />
-                                    <Label Text="Completed" Grid.Column="3" />
-                                </Grid>
+                                </Grid>-->
 
                             </VerticalStackLayout>
 

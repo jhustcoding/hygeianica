@@ -54,7 +54,7 @@
                                 <Entry x:Name="Price" Placeholder="Price" Grid.Row="4"  Grid.Column="1" WidthRequest="400"/>
                                 <Label Text="Image upload:" Grid.Row="5" Style="{StaticResource Headline}" VerticalOptions="Center"  />
                                 <Entry Placeholder="Chooose file" Grid.Row="5"  Grid.Column="1" WidthRequest="400"/>
-                                <Label Text="Preview:" Grid.Row="6" Style="{StaticResource Headline}" VerticalOptions="Center"  />
+                                <Label Text="QR:" Grid.Row="6" Style="{StaticResource Headline}" VerticalOptions="Center"  />
                                 <ContentView Grid.Column="1" Grid.Row="7" HeightRequest="120" WidthRequest="120"  Background="Gray" HorizontalOptions="Start">
                                     <Image Source="qr.png" Aspect="Fill"/>
                                 </ContentView>

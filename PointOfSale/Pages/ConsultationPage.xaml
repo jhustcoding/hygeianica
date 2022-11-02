@@ -88,7 +88,7 @@
                                 AutoGenerateColumnsMode="None" DefaultColumnWidth="200" CellTapped="dataGrid_CellTapped"
                                 ItemsSource="{Binding PrescribeConsultationInfoCollection}">
                                 <syncfusion:SfDataGrid.Columns  >
-                                        <syncfusion:DataGridTextColumn HeaderText="Date Prescription"
+                                        <syncfusion:DataGridTextColumn HeaderText="Date with Prescription"
                                    MappingName="Date" />
                                 </syncfusion:SfDataGrid.Columns>
                             </syncfusion:SfDataGrid>
@@ -98,7 +98,7 @@
                                 AutoGenerateColumnsMode="None" DefaultColumnWidth="200" CellTapped="dataGrid_CellTapped1"
                                 ItemsSource="{Binding NonePrescribeConsultationInfoCollection}">
                                 <syncfusion:SfDataGrid.Columns  >
-                                    <syncfusion:DataGridTextColumn HeaderText="Date None Prescription"
+                                    <syncfusion:DataGridTextColumn HeaderText="Date without Prescription"
                                    MappingName="Date" />
                                 </syncfusion:SfDataGrid.Columns>
                             </syncfusion:SfDataGrid>

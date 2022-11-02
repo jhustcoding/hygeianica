@@ -19,9 +19,9 @@
     <ScrollView>
         <Grid RowDefinitions="0,150,50"
                   ColumnDefinitions="*">
-            <VerticalStackLayout VerticalOptions="Center">
+            <!--<VerticalStackLayout VerticalOptions="Center">
                 <Label Text="Main Menu" Style="{StaticResource LargeTitle}"/>
-            </VerticalStackLayout>
+            </VerticalStackLayout>-->
             <VerticalStackLayout Grid.Row="1">
                 <Border
                     Grid.Column="0"
@@ -41,7 +41,7 @@
                  </Border>
                  <BoxView Style="{StaticResource HRule}"/>
             </VerticalStackLayout>
-            <VerticalStackLayout Grid.Row="2">
+            <VerticalStackLayout Grid.Row="2" Style="{StaticResource DarkBorderView}">
                 <Grid Margin="24" RowDefinitions="*,*">
                     <HorizontalStackLayout Grid.Row="0">
                         <Grid ColumnDefinitions="*,7*">
@@ -59,15 +59,9 @@
                                         FontSize="14"/>
                                 </HorizontalStackLayout>
                             </Border>
-                            <Border Grid.Column="1" Style="{StaticResource PurpleBorderView}">
-                                <Grid ColumnDefinitions="*,*,*" ColumnSpacing="5" Margin="5" >
-                                    <Button Text="Add customer" 
+                            <Border Grid.Column="1">
+                                <Button Text="Add customer" 
                                             Clicked="OnCounterClicked"/>
-                                    <Button Grid.Column="1" Text="Credit customer"
-                                            Clicked="OnCounterClicked"/>
-                                    <Button Grid.Column="2" Text="Paid customer"
-                                            Clicked="OnCounterClicked"/>
-                                </Grid>
                             </Border>
                         </Grid>
                     </HorizontalStackLayout>
@@ -94,7 +88,12 @@
                                 <syncfusion:DataGridTemplateColumn HeaderText="Action">
                                     <syncfusion:DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
-                                            <Label>Hello</Label>
+                                            <Grid ColumnDefinitions="*,*,*,*" ColumnSpacing="0">
+                                                <ImageButton x:Name="QRImage" Source="qr.png" Aspect="Fill" WidthRequest="30" HeightRequest="30" Clicked="QRImage_Clicked"/>
+                                                <ImageButton x:Name="EditImage" Grid.Column="1" Source="edit.png" Clicked="EditImage_Clicked"/>
+                                                <ImageButton x:Name="ConsultationImage" Grid.Column="2"  Source="consultation.png" Clicked="ConsultationImage_Clicked"/>
+                                                <ImageButton x:Name="MedicineImage" Grid.Column="3" Source="medicine.png" Clicked="MedicineImage_Clicked"/>
+                                            </Grid>
                                         </DataTemplate>
                                     </syncfusion:DataGridTemplateColumn.CellTemplate>
                                 </syncfusion:DataGridTemplateColumn>
