@@ -4,7 +4,7 @@
              x:Class="PointOfSale.Pages.AddProductPage"
              xmlns:syncfusion="clr-namespace:Syncfusion.Maui.DataGrid;assembly=Syncfusion.Maui.DataGrid"
               xmlns:m="clr-namespace:PointOfSale.Models"
-             Title="AddProduct">
+             Title="Add Product">
 
     <ContentPage.BindingContext>
         <m:ProductViewModel/>
